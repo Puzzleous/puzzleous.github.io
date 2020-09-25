@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Vibur);
+html, body {
+    height:100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #112 url(http://imgur.com/6QJjYMe.jpg) center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.logo {
+    text-align: center;
+    width: 65%;
+    height: 95%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.logo b {
+    font: 400 19vh "Vibur";
+    color: #1bbdd0;
+    text-shadow:  0 -40px 100px, 0 0 2px, 0 0 1em #4fd8e8, 0 0 0.5em #4fd8e8, 0 0 0.1em #4fd8e8, 0 10px 3px #000;
+
+}
+.logo b span {
+    animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2) {
+    animation: blink linear infinite 3s;
+}
+.content {
+    margin: 0 auto;
+    text-align: center;
+    font: 200 "Vibur";
+    border: 3px solid #1bbdd0;
+    border-radius: 5px;
+    width: 65%;
+    height: 25%;
+    margin-top: 20%;
+    box-shadow: 0 -20px 100px #4fd8e8, 0 0 2px, 0 0 1em #4fd8e8, 0 0 0.5em #4fd8e8, 0 0 0.1em #4fd8e8;
+}
+/* Keyframes */
+@keyframes blink {
+    78% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    79% {
+        color: #222;
+    }
+    80% {
+        text-shadow: none;
+    }
+    81% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    82% {
+        color: #222;
+        text-shadow: none;
+    }
+    83% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+    92% {
+        color: #222;
+        text-shadow: none;
+    }
+    92.5% {
+        color: inherit;
+        text-shadow: inherit;
+    }
+}
